@@ -10,3 +10,6 @@ CDH4 instructions:
 - Follow https://ccp.cloudera.com/display/CDH4DOC/HBase+Installation#HBaseInstallation-ConfiguringHBaseinPseudodistributedMode
 - Update /etc/environment accordingly to the environment file from this repo
 - Update /etc/hosts and comment-out line with 127.0.1.1
+
+Assumptions:
+- Java is installed into /opt/jdk
