@@ -29,6 +29,11 @@ limitations under the License.
 	  <name>mapreduce.framework.name</name>
 	  <value>yarn</value>
 	</property>
+	<property>
+	  <name>mapreduce.shuffle.port</name>
+	  <value>8998</value>
+	  <description>Port that the ShuffleHandler will run on. ShuffleHandler is a service run at the NodeManager to facilitate transfers of intermediate Map outputs to requesting Reducers.</description>
+	</property>	
 	<property> 
 	  <name>mapreduce.clientfactory.class.name</name> 
 	  <value>org.apache.hadoop.mapred.YarnClientFactory</value> 
