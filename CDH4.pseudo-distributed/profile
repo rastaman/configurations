@@ -36,7 +36,7 @@ HADOOP_CLASSPATH=`/usr/lib/hbase/bin/hbase classpath`
 HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce
 HADOOP_HDFS_HOME=/usr/lib/hadoop-hdfs
 YARN_HOME=/usr/lib/hadoop-yarn
-HADOOP_CONF_DIR=/etc/hadoop/conf 
+HADOOP_CONF_DIR=/etc/hadoop/conf
 YARN_CONF_DIR=/etc/hadoop/conf
 
 export HADOOP_CLASSPATH JAVA_HOME PATH HADOOP_MAPRED_HOME YARN_HOME HADOOP_CONF_DIR YARN_CONF_DIR HADOOP_HDFS_HOME
