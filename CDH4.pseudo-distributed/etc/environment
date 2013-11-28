@@ -4,5 +4,7 @@ HADOOP_HDFS_HOME=/usr/lib/hadoop-hdfs
 YARN_HOME=/usr/lib/hadoop-yarn
 HADOOP_CONF_DIR=/etc/hadoop/conf
 YARN_CONF_DIR=/etc/hadoop/conf
+PIG_CONF_DIR=/etc/pig/conf
+PIG_CLASSPATH=/usr/lib/hbase/hbase.jar:/usr/lib/zookeeper/zookeeper.jar
 
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/java/bin"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/java/bin"
