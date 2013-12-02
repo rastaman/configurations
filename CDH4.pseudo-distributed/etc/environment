@@ -1,8 +1,11 @@
-JAVA_HOME=/opt/jdk
+JAVA_HOME=/usr/lib/jvm/java-7-oracle
 HADOOP_MAPRED_HOME=/usr/lib/hadoop-mapreduce
 HADOOP_HDFS_HOME=/usr/lib/hadoop-hdfs
 YARN_HOME=/usr/lib/hadoop-yarn
 HADOOP_CONF_DIR=/etc/hadoop/conf
+HADOOP_LIBEXEC_DIR=/usr/lib/hadoop/libexec
 YARN_CONF_DIR=/etc/hadoop/conf
+PIG_CONF_DIR=/etc/pig/conf
+PIG_CLASSPATH=/usr/lib/hbase/hbase.jar:/usr/lib/zookeeper/zookeeper.jar
 
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/java/bin"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-7-oracle/bin"

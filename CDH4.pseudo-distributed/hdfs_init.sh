@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # system-wide structure
 sudo -u hdfs hdfs dfs -mkdir /tmp
 sudo -u hdfs hdfs dfs -chmod -R 1777 /tmp

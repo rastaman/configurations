@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 
 # HBase section
@@ -13,4 +15,4 @@ sudo service hadoop-yarn-resourcemanager stop
 # HDFS section
 for x in `cd /etc/init.d ; ls hadoop-hdfs-*` ; do sudo service $x stop ; done
 
-sudo /opt/jdk/bin/jps
+sudo $JAVA_HOME/bin/jps

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -x
 
 # HDFS section
@@ -13,4 +15,4 @@ sudo service zookeeper-server start
 sudo service hbase-master start
 sudo service hbase-regionserver start
 
-sudo /opt/jdk/bin/jps
+sudo $JAVA_HOME/bin/jps
